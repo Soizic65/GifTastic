@@ -1,0 +1,35 @@
+#buttonHeader{
+    font-size:50px;
+   
+}
+html{
+    text-align:center;
+}
+body{
+    background-image: url("https://c1.staticflickr.com/4/3708/14118557818_063d671a72_b.jpg");
+    background-repeat: no-repeat;
+    background-size: 1950px 1100px;
+}
+label{
+    font-weight:bold;
+}
+#form{
+    float:right;
+}
+#imageArea{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.animals {
+    margin: 10px;
+    padding: 10px;
+    
+    border: white 5px solid;
+}
+
+p{
+    font-weight:bold;
+    color:white;
+}
