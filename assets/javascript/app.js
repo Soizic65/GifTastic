@@ -14,7 +14,7 @@ $(document).ready(function () {
 
             var newButton = $("<button>")
             newButton.attr("class", "button");
-            newButton.attr("class", "btn btn-success")
+            newButton.attr("class", "btn btn-danger")
             newButton.attr("data-name", topics[i]);
             newButton.text(topics[i]);
             $("#buttonArea").append(newButton);
@@ -82,7 +82,7 @@ $(document).ready(function () {
             }
         });
   
-         $(document).on('click', '.btn btn-success', images);
+         $(document).on('click', '.btn btn-danger', images);
          createButtons();
          images();
          addButton();
